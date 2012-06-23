@@ -1,0 +1,32 @@
+{% extends '::base.html.twig' %}
+
+{% block stylesheets %}
+  <link href="{{ asset('bundles/assignatura/css/normalitzar.css') }}"
+  rel="stylesheet" type="text/css" />
+  <link href="{{ asset('bundles/assignatura/css/comu.css') }}"
+  rel="stylesheet" type="text/css" />
+  <link href="{{ asset('bundles/assignatura/css/frontend.css') }}"
+  rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block javascripts %}{% endblock %}
+
+{% block body %}
+
+  <header>
+    <h1><a href="{{ path('portada') }}">GESNOTES</a></h1>
+    <nav>
+      <ul>
+        <li><a href="{{ path('portada') }}">Les meves notes</a></li>
+        <li><a href="#">Els meus companys</a></li>
+        <li><a href="#">El meu perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    {% block article %}{% endblock %}
+  </article>
+  <aside>
+    {% block aside %}{% endblock %}
+  </aside>
+{% endblock %}
