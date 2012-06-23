@@ -1,0 +1,5 @@
+[2012-06-23 14:28:10] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /check.php" (uncaught exception) at /var/www/GesNotes/vendor/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/RouterListener.php line 83 [] []
+[2012-06-23 14:30:15] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /var/www/GesNotes/vendor/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/RouterListener.php line 83 [] []
+[2012-06-23 14:30:20] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /var/www/GesNotes/app/cache/prod/classes.php line 4584 [] []
+[2012-06-23 14:34:42] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /var/www/GesNotes/app/cache/prod/classes.php line 4584 [] []
+[2012-06-23 14:37:27] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /var/www/GesNotes/app/cache/prod/classes.php line 4584 [] []
