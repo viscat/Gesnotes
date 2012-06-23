@@ -1,0 +1,17 @@
+/* 
+    Document   : frontend
+    Created on : 23/06/2012, 16:31:05
+    Author     : viscat
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#contenedor > article {
+  padding: 0px 15px;
+}
+

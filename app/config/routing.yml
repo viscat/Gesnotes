@@ -1,3 +1,15 @@
+BackendBundle:
+    resource: "@BackendBundle/Resources/config/routing.yml"
+    prefix:   /
+
+NotaBundle:
+    resource: "@NotaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+AlumneBundle:
+    resource: "@AlumneBundle/Resources/config/routing.yml"
+    prefix:   /
+
 AssignaturaBundle:
     resource: "@AssignaturaBundle/Resources/config/routing.yml"
     prefix:   /
@@ -6,3 +18,11 @@ AssignaturaBundle:
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #   prefix:   /_internal
+
+pagina_ajuda:
+  pattern: /ajuda
+  defaults: { _controller: AssignaturaBundle:Default:ajuda}
+
+portada:
+  pattern: /
+  defaults: { _controller: AssignaturaBundle:Default:ajuda }
