@@ -12,4 +12,9 @@ class DefaultController extends Controller
     {
         return $this->render('AssignaturaBundle:Default:index.html.twig', array('name' => $name));
     }
+    
+    public function ajudaAction()
+    {
+        return $this->render('AssignaturaBundle:Default:ajuda.html.twig');
+    }
 }
